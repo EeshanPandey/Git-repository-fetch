@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Github repo fetcher</title>
+	<link rel="stylesheet" type="text/css" href="repo.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="repo.js"></script>
+	
+</head>
+<body>
+	<div class="header">
+		 <div>
+		 	<h1>GitHub Repository Fetcher</h1>
+		 </div>	
+	</div>
+	<div class="search">
+		<div class="field">
+		<label id="label">Please enter a valid GitHub username</label>
+		<input type="text" name="username" id="input">
+		<button><i class="fas fa-search"></i> Search</button>
+	</div>
+	</div>
+	
+	<div class="results">
+		<p><strong> The repositories found for the username are:</strong></p>
+		<h3></h3>
+		<ul class="repos">
+		</ul>
+	</div>
+
+	
+</body>
+</html>
